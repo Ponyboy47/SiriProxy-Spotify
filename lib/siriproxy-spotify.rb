@@ -12,7 +12,7 @@ require 'uri'
 
 class SiriProxy::Plugin::Spotify < SiriProxy::Plugin
 
-  SPOTIFY_CHECK = '(spotify|spotter five|spot of phi|spot fie|spot a fight|specify|spot if i|spotted by|stultify)'
+  SPOTIFY_CHECK = '(spotify|spotter five|spot of phi|spot fie|spot a fight|specify|spot if i|spotted by|stultify|s bona fide)'
 
   def initialize(config)
     #if you have custom configuration options, process them here!
